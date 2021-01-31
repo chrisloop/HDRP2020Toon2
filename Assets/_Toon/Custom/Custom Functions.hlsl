@@ -1,4 +1,15 @@
 #ifndef SHADERGRAPH_PREVIEW
+
+
+    #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/NormalBuffer.hlsl"
+    #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+    #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightDefinition.cs.hlsl"
+    #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowManager.cs.hlsl"
+    #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowSampling.hlsl"    
+    #include "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderVariables.hlsl"
+    #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/LightLoopDef.hlsl"
+
+
     void GetDepthNormal_float(float2 ScreenPosition, out float Depth, out float3 Normal)
     {
         Depth = SampleCameraDepth(ScreenPosition);
@@ -25,7 +36,6 @@ void GetSun_float(out float3 LightDirection, out float3 Color)
     Color = 1;
 
     #ifndef SHADERGRAPH_PREVIEW
-
         if (_DirectionalLightCount > 0)
         {
             DirectionalLightData light = _DirectionalLightDatas[0];
@@ -42,6 +52,8 @@ void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier,
     Normal = 1;
     Depth = 0;
     Edges = 1;
+
+    EdgeRadius = EdgeRadius * _ScreenParams.y / 1080; // screen size scaling
 
     #ifndef SHADERGRAPH_PREVIEW
 

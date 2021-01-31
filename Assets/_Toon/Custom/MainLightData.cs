@@ -14,6 +14,6 @@ public class MainLightData : MonoBehaviour
 	{
 		//Shader.SetGlobalVector("_LightDirection", -transform.forward);
 		//Shader.SetGlobalColor("_LightColor", mainLight.color);
-        Shader.SetGlobalFloat("_LightIntensity", mainLight.intensity); // fix later to get intensity without a script
+        Shader.SetGlobalFloat("_LightIntensity", mainLight.intensity); // can't figure out how to get light intensity in shader graph
 	}
 }

@@ -3602,10 +3602,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1600.4998779296875,
-            "y": 898.5,
-            "width": 129.0,
-            "height": 118.00000762939453
+            "x": 1604.0,
+            "y": 959.0000610351563,
+            "width": 130.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -4768,7 +4768,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "63fb01e4cba545f587816afcf2bf829e",
     "m_Id": 0,
-    "m_DisplayName": "Received Shadow Color",
+    "m_DisplayName": "Shadow Tint",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4800,10 +4800,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -830.5000610351563,
-            "y": 163.00001525878907,
-            "width": 125.00000762939453,
-            "height": 77.00000762939453
+            "x": -559.0,
+            "y": -128.0,
+            "width": 125.0,
+            "height": 77.0
         }
     },
     "m_Slots": [
@@ -5405,10 +5405,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -453.4998779296875,
-            "y": 70.00001525878906,
-            "width": 207.99998474121095,
-            "height": 301.9999694824219
+            "x": -196.49996948242188,
+            "y": -282.0,
+            "width": 208.0,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -6668,7 +6668,7 @@
     "m_Guid": {
         "m_GuidSerialized": "63ca4984-ca53-49e5-8348-2d89cdfa11da"
     },
-    "m_Name": "Received Shadow Color",
+    "m_Name": "Shadow Tint",
     "m_DefaultReferenceName": "Color_9f204f4668e640aaaf65228c0a375219",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -6682,7 +6682,7 @@
         "b": 0.0,
         "a": 0.0
     },
-    "m_ColorMode": 1
+    "m_ColorMode": 0
 }
 
 {
@@ -7796,9 +7796,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3494.5,
-            "y": 1043.0,
-            "width": 202.5,
+            "x": 3327.0,
+            "y": 1173.0,
+            "width": 143.5,
             "height": 34.0
         }
     },
@@ -8533,8 +8533,8 @@
     "m_ObjectId": "d091caebb0424eec9ed6b1126bc55fbf",
     "m_Title": "Directional Light Influence",
     "m_Position": {
-        "x": -1014.5000610351563,
-        "y": -27.500030517578126
+        "x": -612.9998779296875,
+        "y": -341.0
     }
 }
 
@@ -8665,10 +8665,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -650.5000610351563,
-            "y": 97.49999237060547,
-            "width": 125.00000762939453,
-            "height": 118.00000762939453
+            "x": -378.5,
+            "y": -186.0,
+            "width": 125.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -8829,8 +8829,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -845.0000610351563,
-            "y": 97.49999237060547,
+            "x": -573.5,
+            "y": -201.5,
             "width": 139.5,
             "height": 34.0
         }

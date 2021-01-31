@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon Lit Screen Space Shadows Sphere
+  m_Name: Toon Lit Cube
   m_Shader: {fileID: -6465566751694194690, guid: 542450995593b6d429df37551f02c49e, type: 3}
   m_ShaderKeywords: _DEPTHOFFSET_ON _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
@@ -46,27 +46,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1bf2d9fae42a48dca17f233985539b0c: 50
-    - Vector1_2ebe5d8448eb43d19c5ab5b4f5b34ac8: 0.478
+    - Vector1_1bf2d9fae42a48dca17f233985539b0c: 300
+    - Vector1_2ebe5d8448eb43d19c5ab5b4f5b34ac8: 0.641
     - Vector1_3617de9aeccd4e1eaa13d996a39ff510: 1
     - Vector1_4B9BB44F: 0
-    - Vector1_674778c5392c49e5961b62f61112b20f: 20
+    - Vector1_674778c5392c49e5961b62f61112b20f: 200
     - Vector1_889987DF: 0.5
-    - Vector1_88f7037ba09444df9fcf7aa21e14d136: 3
-    - Vector1_8AFDFB0C: 0.203
-    - Vector1_945ADE25: 0.627
-    - Vector1_98b64b65220c4ee9a6335e25d277a408: 1
-    - Vector1_9FF40171: 2.46
-    - Vector1_9fa923b6cf214786bac55b210d7614ce: 3.2
-    - Vector1_BC8BD2CC: 0.445
+    - Vector1_88f7037ba09444df9fcf7aa21e14d136: 1
+    - Vector1_8AFDFB0C: 0
+    - Vector1_945ADE25: 0
+    - Vector1_98b64b65220c4ee9a6335e25d277a408: 0.4
+    - Vector1_9FF40171: 0.1
+    - Vector1_9fa923b6cf214786bac55b210d7614ce: 10
+    - Vector1_BC8BD2CC: 0
     - Vector1_F4A18076: 3.42
     - Vector1_F4F70242: -0.5
     - Vector1_a0e252eb5cdc4bd7b89439de83098705: 1
-    - Vector1_a963ea382a574385b2c453061887b90f: 5
+    - Vector1_a963ea382a574385b2c453061887b90f: 10
     - Vector1_acaf71c445894b739eda8abeb604a2c3: 0
     - Vector1_b102c176d56a4022a1bd362c0a195448: 0
     - Vector1_c968c3e8c18248279b4002e8bc04cb6c: 100000
-    - Vector1_c983f3e8347749aeba2cda64cd493a6d: 0.18
+    - Vector1_c983f3e8347749aeba2cda64cd493a6d: 0.319
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
