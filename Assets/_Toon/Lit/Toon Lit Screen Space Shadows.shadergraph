@@ -83,6 +83,12 @@
         },
         {
             "m_Id": "1bf2d9fae42a48dca17f233985539b0c"
+        },
+        {
+            "m_Id": "acaf71c445894b739eda8abeb604a2c3"
+        },
+        {
+            "m_Id": "a0e252eb5cdc4bd7b89439de83098705"
         }
     ],
     "m_Keywords": [],
@@ -2436,8 +2442,8 @@
     "m_ObjectId": "0dc3f7e566f64ccfbd5f9bfca1d2d51a",
     "m_Title": "Screen Space Shadows overlay",
     "m_Position": {
-        "x": 10.0,
-        "y": 10.0
+        "x": 1937.0,
+        "y": 1212.0
     }
 }
 
@@ -2677,10 +2683,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3271.0,
-            "y": 958.0,
-            "width": 130.0,
-            "height": 118.0
+            "x": 3324.999755859375,
+            "y": 993.9999389648438,
+            "width": 129.99998474121095,
+            "height": 117.99999237060547
         }
     },
     "m_Slots": [
@@ -2877,8 +2883,8 @@
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2757.0,
-            "y": 1255.0,
+            "x": 2713.0,
+            "y": 1271.0,
             "width": 120.00000762939453,
             "height": 125.0
         }
@@ -3365,9 +3371,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3055.0,
-            "y": 1326.0,
-            "width": 126.00000762939453,
+            "x": 3011.0,
+            "y": 1342.0,
+            "width": 126.0,
             "height": 118.0
         }
     },
@@ -3837,10 +3843,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3475.0,
-            "y": 1349.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": 3431.0,
+            "y": 1365.0,
+            "width": 130.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -6021,10 +6027,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2389.0,
-            "y": 1255.0,
-            "width": 145.00001525878907,
-            "height": 130.0
+            "x": 2234.0,
+            "y": 1307.0,
+            "width": 145.0,
+            "height": 129.99998474121095
         }
     },
     "m_Slots": [
@@ -7517,18 +7523,18 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2556.0,
-            "y": 1255.0,
+            "x": 2518.0,
+            "y": 1278.0,
             "width": 156.0,
             "height": 94.0
         }
     },
     "m_Slots": [
         {
-            "m_Id": "08f68a0488b3488aba0d875f3eb6f6b7"
+            "m_Id": "55592ad388844aa1ae99c9ff61d3df78"
         },
         {
-            "m_Id": "55592ad388844aa1ae99c9ff61d3df78"
+            "m_Id": "08f68a0488b3488aba0d875f3eb6f6b7"
         }
     ],
     "synonyms": [],
@@ -7538,7 +7544,7 @@
         "m_SerializableColors": []
     },
     "m_SourceType": 0,
-    "m_FunctionName": "Sample",
+    "m_FunctionName": "GetShadow",
     "m_FunctionSource": "6fbb60724c6acdf468aafb498e552ebc",
     "m_FunctionBody": "Enter function body here..."
 }
@@ -8600,6 +8606,29 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "a0e252eb5cdc4bd7b89439de83098705",
+    "m_Guid": {
+        "m_GuidSerialized": "08ea193b-44e0-4e5f-a7a6-48f525ab7cd2"
+    },
+    "m_Name": "Float (1)",
+    "m_DefaultReferenceName": "Vector1_a0e252eb5cdc4bd7b89439de83098705",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 1.0,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "a187681806fd4bc8ab338b73aaf6955a",
@@ -9038,6 +9067,29 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "acaf71c445894b739eda8abeb604a2c3",
+    "m_Guid": {
+        "m_GuidSerialized": "e143fc9b-3419-44fd-a368-d8b26ed5d3b0"
+    },
+    "m_Name": "Float",
+    "m_DefaultReferenceName": "Vector1_acaf71c445894b739eda8abeb604a2c3",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "acfc97bc3afde484a6ca3b890e8af49d",
@@ -9248,9 +9300,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3210.0,
-            "y": 1409.0,
-            "width": 126.00000762939453,
+            "x": 3166.0,
+            "y": 1425.0,
+            "width": 126.0,
             "height": 118.0
         }
     },
@@ -9964,9 +10016,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2907.0,
-            "y": 1255.0,
-            "width": 126.00000762939453,
+            "x": 2863.0,
+            "y": 1271.0,
+            "width": 126.0,
             "height": 118.0
         }
     },
