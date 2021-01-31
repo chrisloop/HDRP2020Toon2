@@ -69,7 +69,7 @@ Material:
     - Vector1_9FF40171: 0.1
     - Vector1_9fa923b6cf214786bac55b210d7614ce: 1
     - Vector1_BC8BD2CC: 0
-    - Vector1_F4A18076: 3
+    - Vector1_F4A18076: 100
     - Vector1_F4F70242: -0.5
     - Vector1_a963ea382a574385b2c453061887b90f: 1000
     - _AddPrecomputedVelocity: 0
