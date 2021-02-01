@@ -258,7 +258,7 @@ MonoBehaviour:
       cookieTexArraySize: 1
       planarReflectionAtlasSize: 512
       reflectionProbeCacheSize: 64
-      reflectionCubemapSize: 128
+      reflectionCubemapSize: 512
       reflectionCacheCompressed: 0
       reflectionProbeFormat: 74
       skyReflectionSize: 256
@@ -440,8 +440,8 @@ MonoBehaviour:
   m_DefaultMaterialQualityLevel: 2
   diffusionProfileSettings: {fileID: 0}
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: 0792bdb6b993db144822f3bb2e0578d7, type: 2}
-  - {fileID: 11400000, guid: e8334aae2c940694ea0089050700fe37, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   beforeTransparentCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
