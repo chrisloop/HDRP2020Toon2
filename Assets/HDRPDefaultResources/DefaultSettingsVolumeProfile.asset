@@ -122,75 +122,6 @@ MonoBehaviour:
   filter:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &-2905813219980059560
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaa3b8214f75b354e9ba2caadd022259, type: 3}
-  m_Name: DepthOfField
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  quality:
-    m_OverrideState: 0
-    m_Value: 1
-  focusMode:
-    m_OverrideState: 0
-    m_Value: 0
-  focusDistance:
-    m_OverrideState: 0
-    m_Value: 10
-    min: 0.1
-  nearFocusStart:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  nearFocusEnd:
-    m_OverrideState: 0
-    m_Value: 4
-    min: 0
-  farFocusStart:
-    m_OverrideState: 0
-    m_Value: 10
-    min: 0
-  farFocusEnd:
-    m_OverrideState: 0
-    m_Value: 20
-    min: 0
-  m_NearSampleCount:
-    m_OverrideState: 0
-    m_Value: 5
-    min: 3
-    max: 8
-  m_NearMaxBlur:
-    m_OverrideState: 0
-    m_Value: 4
-    min: 0
-    max: 8
-  m_FarSampleCount:
-    m_OverrideState: 0
-    m_Value: 7
-    min: 3
-    max: 16
-  m_FarMaxBlur:
-    m_OverrideState: 0
-    m_Value: 8
-    min: 0
-    max: 16
-  m_HighQualityFiltering:
-    m_OverrideState: 0
-    m_Value: 1
-  m_Resolution:
-    m_OverrideState: 0
-    m_Value: 2
-  m_PhysicallyBased:
-    m_OverrideState: 0
-    m_Value: 0
 --- !u!114 &-2896491866002196481
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -237,68 +168,10 @@ MonoBehaviour:
   - {fileID: 7686318427622180703}
   - {fileID: 7502528774814404555}
   - {fileID: 7542669330009093999}
-  - {fileID: 1501199423866068322}
   - {fileID: 5315503232242033309}
   - {fileID: 1932259527246508038}
   - {fileID: -8376452683626914476}
   - {fileID: 2680202494255401921}
-  - {fileID: -2905813219980059560}
---- !u!114 &1501199423866068322
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
-  m_Name: Bloom
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  quality:
-    m_OverrideState: 1
-    m_Value: 1
-  threshold:
-    m_OverrideState: 1
-    m_Value: 0
-    min: 0
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.041
-    min: 0
-    max: 1
-  scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
-    min: 0
-    max: 1
-  tint:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 0
-    showAlpha: 0
-    showEyeDropper: 1
-  dirtTexture:
-    m_OverrideState: 0
-    m_Value: {fileID: 0}
-  dirtIntensity:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  anamorphic:
-    m_OverrideState: 0
-    m_Value: 1
-  m_Resolution:
-    m_OverrideState: 1
-    m_Value: 2
-  m_HighQualityPrefiltering:
-    m_OverrideState: 1
-    m_Value: 0
-  m_HighQualityFiltering:
-    m_OverrideState: 1
-    m_Value: 1
 --- !u!114 &1932259527246508038
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -674,14 +547,14 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   quality:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   rayTracing:
     m_OverrideState: 0
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.75
+    m_Value: 1.52
     min: 0
     max: 4
   directLightingStrength:
@@ -691,11 +564,11 @@ MonoBehaviour:
     max: 1
   radius:
     m_OverrideState: 1
-    m_Value: 1.5
+    m_Value: 0.76
     min: 0.25
     max: 5
   spatialBilateralAggressiveness:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.15
     min: 0
     max: 1
@@ -718,41 +591,41 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
   m_StepCount:
-    m_OverrideState: 0
-    m_Value: 6
+    m_OverrideState: 1
+    m_Value: 4
     min: 2
     max: 32
   m_FullResolution:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   m_MaximumRadiusInPixels:
-    m_OverrideState: 0
-    m_Value: 40
+    m_OverrideState: 1
+    m_Value: 32
     min: 16
     max: 256
   m_BilateralUpsample:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   m_DirectionCount:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 1
     min: 1
     max: 6
   m_RayLength:
-    m_OverrideState: 0
-    m_Value: 3
+    m_OverrideState: 1
+    m_Value: 0.5
     min: 0
   m_SampleCount:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 1
     min: 1
     max: 64
   m_Denoise:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   m_DenoiserRadius:
-    m_OverrideState: 0
-    m_Value: 0.5
+    m_OverrideState: 1
+    m_Value: 0.25
     min: 0.001
     max: 1
 --- !u!114 &7542669330009093999

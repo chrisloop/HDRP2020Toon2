@@ -19,13 +19,24 @@
     }
 #endif
 
-void GetShadow_float(float2 uv, out float3 Sample)
+void GetAO_float(float2 uv, out float AO)
 {
-    Sample = 1;
+    AO = 1;
 
     #ifndef SHADERGRAPH_PREVIEW
 
-       Sample = SAMPLE_TEXTURE2D_X(_ScreenSpaceShadowsTexture, s_linear_clamp_sampler, uv * _RTHandleScale.xy);
+       AO = SAMPLE_TEXTURE2D_X(_AmbientOcclusionTexture, s_linear_clamp_sampler, uv * _RTHandleScale.xy).r;
+
+    #endif
+}
+
+void GetShadow_float(float2 uv, out float3 Shadow)
+{
+    Shadow = 1;
+
+    #ifndef SHADERGRAPH_PREVIEW
+
+       Shadow = SAMPLE_TEXTURE2D_X(_ScreenSpaceShadowsTexture, s_linear_clamp_sampler, uv * _RTHandleScale.xy);
 
     #endif
 }
