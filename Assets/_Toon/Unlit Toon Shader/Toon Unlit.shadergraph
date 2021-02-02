@@ -7,6 +7,9 @@
             "m_Id": "62042ef0f20a9889a4c4621d7a34e0a7"
         },
         {
+            "m_Id": "6ad20c275c9a4a5297ce4aad2e3421ef"
+        },
+        {
             "m_Id": "8833e7a298fc3d809817375db6714c13"
         },
         {
@@ -5144,6 +5147,24 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
+    "m_ObjectId": "6ad20c275c9a4a5297ce4aad2e3421ef",
+    "m_Guid": {
+        "m_GuidSerialized": "d4c37b0c-2759-432a-9e59-c900b8b915ef"
+    },
+    "m_Name": "[HDRP Toon Shader 1.0 @csims314](https://twitter.com/csims314)",
+    "m_DefaultReferenceName": "Boolean_6ad20c275c9a4a5297ce4aad2e3421ef",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "6b7b0af24d8646d886c864aa8666a723",
     "m_Id": 0,
@@ -9537,7 +9558,7 @@
             "m_Id": "39c1dddace494402955d09071f71a135"
         }
     ],
-    "m_CustomEditorGUI": ""
+    "m_CustomEditorGUI": "Needle.MarkdownShaderGUI"
 }
 
 {
