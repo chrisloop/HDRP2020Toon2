@@ -4499,6 +4499,9 @@
         },
         {
             "m_Id": "a2c829c6b8204f30a2894ff67d7bffcb"
+        },
+        {
+            "m_Id": "ae1d6561d318413780e6f6e0a35c3dc2"
         }
     ],
     "synonyms": [],
@@ -7371,6 +7374,21 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Position"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ae1d6561d318413780e6f6e0a35c3dc2",
+    "m_Id": 9,
+    "m_DisplayName": "Noise",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Noise",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {

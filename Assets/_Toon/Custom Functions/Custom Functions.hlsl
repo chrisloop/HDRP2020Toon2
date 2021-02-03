@@ -57,7 +57,7 @@ void GetSun_float(out float3 LightDirection, out float3 Color)
     #endif
 }
 
-void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier, float DepthBias, float NormalMultiplier, float NormalBias, 
+void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier, float DepthBias, float NormalMultiplier, float NormalBias, float Noise,
     out float Depth, out float3 Normal, out float Edges)
 {
     Normal = 1;
@@ -86,6 +86,7 @@ void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier,
         float depthDifference = 0;
         float normalDifference = 0;
 
+
         // center position
         GetDepthNormal_float(ScreenPosition, Depth, Normal);
 
@@ -94,6 +95,7 @@ void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier,
 
         for (int i = 0; i < MAX_SAMPLES; i++)
         {
+
             GetDepthNormal_float(ScreenPosition + samplingPositions[i] * EdgeRadius * _ScreenSize.zw, depthSample, normalSample);
             depthDifference = depthDifference + Depth - depthSample;
             normalDifference = normalDifference + Normal - normalSample;
