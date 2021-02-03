@@ -1,6 +1,4 @@
 #ifndef SHADERGRAPH_PREVIEW
-
-
     #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/NormalBuffer.hlsl"
     #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
     #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightDefinition.cs.hlsl"
@@ -8,7 +6,6 @@
     #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowSampling.hlsl"    
     #include "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderVariables.hlsl"
     #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/LightLoopDef.hlsl"
-
 
     void GetDepthNormal_float(float2 ScreenPosition, out float Depth, out float3 Normal)
     {
@@ -41,9 +38,10 @@ void GetShadow_float(float2 uv, out float3 Shadow)
     #endif
 }
 
-void ShadowEdges_float()
+void ShadowEdges_float(float2 uv, out float ShadowEdges)
 {
-    
+    ShadowEdges = 1;
+
 }
 
 void GetSun_float(out float3 LightDirection, out float3 Color)
@@ -62,7 +60,7 @@ void GetSun_float(out float3 LightDirection, out float3 Color)
     #endif
 }
 
-void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier, float DepthBias, float NormalMultiplier, float NormalBias, float Noise,
+void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier, float DepthBias, float NormalMultiplier, float NormalBias, int Samples,
     out float Depth, out float3 Normal, out float Edges)
 {
     Normal = 1;
@@ -78,14 +76,14 @@ void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier,
         // Neighbour pixel positions
         static float2 samplingPositions[MAX_SAMPLES] =
         {
-            float2( 1,  1),
             float2( 0,  1),
-            float2(-1,  1),
             float2(-1,  0),
-            float2(-1, -1),
             float2( 0, -1),
+            float2( 1,  0),
+            float2( 1,  1),
+            float2(-1,  1),
+            float2(-1, -1),
             float2( 1, -1),
-            float2( 1, 0),
         };
 
         float depthDifference = 0;
@@ -98,7 +96,7 @@ void Edges_float(float2 ScreenPosition, float EdgeRadius, float DepthMultiplier,
         float depthSample;
         float3 normalSample;
 
-        for (int i = 0; i < MAX_SAMPLES; i++)
+        for (int i = 0; i < Samples; i++)
         {
 
             GetDepthNormal_float(ScreenPosition + samplingPositions[i] * EdgeRadius * _ScreenSize.zw, depthSample, normalSample);
