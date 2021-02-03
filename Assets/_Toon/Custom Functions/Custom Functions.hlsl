@@ -41,6 +41,11 @@ void GetShadow_float(float2 uv, out float3 Shadow)
     #endif
 }
 
+void ShadowEdges_float()
+{
+    
+}
+
 void GetSun_float(out float3 LightDirection, out float3 Color)
 {
     LightDirection = float3(0.5, 0.5, 0);

@@ -57,6 +57,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1c4cf44c63c40cf488984cef6ef58723, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9314975c85bb466eba4ef27cc58f60d5_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 252cd55ef2d153c4986d8688836b4be1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_c3303642b29b4ab9ab72ea193d8f60fe_Out_0:
         m_Texture: {fileID: 2800000, guid: 82b9a36d252f5e84b910da9686450ea4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -77,16 +81,24 @@ Material:
     - Boolean_1: 0
     - Boolean_2: 0
     - Boolean_69aa54819bb043cd9dc1dacf1946806f: 1
+    - Boolean_8cb28678092f4ca8863fe9c8f6d938da: 0
     - Boolean_925a0dc74d81471f856737723c2ef199: 0
+    - Boolean_ae83a1fa8b7145b580fcb0acde8334b4: 0
     - Boolean_cec2dc7579c54ad1b2477ce5d9462703: 0
+    - Boolean_df3d4d3425864e2c9755174324ea3c33: 0
+    - Boolean_df3d4d3425864e2c9755174324ea3c33_1: 0
+    - Boolean_df3d4d3425864e2c9755174324ea3c33_2: 0
     - Boolean_f2b62d2ba60245d08c578c1bad82e9a6: 0
     - Boolean_f2b62d2ba60245d08c578c1bad82e9a6_1: 0
+    - ENUM_03FDE198DDC6415C822C72B658B21DC4: 0
+    - ENUM_E3ECF2C0332A482FA9C60CC273AE759D: 0
     - Vector1_02890e03be7743b0ade8759623bc4b7c: 0
     - Vector1_0eb6120f3aa249f88883181ffa13025f: 50
     - Vector1_130ae5b3f0ce4cf9824929fae402a53e: 0.845
     - Vector1_1bf2d9fae42a48dca17f233985539b0c: 1000
     - Vector1_27d1779a62af4045a16ef019e6a493fe: 5
     - Vector1_2ebe5d8448eb43d19c5ab5b4f5b34ac8: 0.639
+    - Vector1_32ce12e6b6b9493cbd29f7c0f8b0882d: 0.01
     - Vector1_3617de9aeccd4e1eaa13d996a39ff510: 1
     - Vector1_4B9BB44F: 0
     - Vector1_582aaeb3311a4ffa9f7a7aeb362429ef: 0
@@ -111,6 +123,7 @@ Material:
     - Vector1_a963ea382a574385b2c453061887b90f: 2
     - Vector1_acaf71c445894b739eda8abeb604a2c3: 0
     - Vector1_b102c176d56a4022a1bd362c0a195448: 0
+    - Vector1_b404da31d8e24c1487e3ad5bbf137055: 10
     - Vector1_babfac56a44f4d4f83e25e245cf3b558: 100000
     - Vector1_c968c3e8c18248279b4002e8bc04cb6c: 100000
     - Vector1_c983f3e8347749aeba2cda64cd493a6d: 0.737
@@ -124,6 +137,9 @@ Material:
     - _BlendMode: 0
     - _CullMode: 2
     - _CullModeForward: 2
+    - _DEBUG_ENUM: 0
+    - _DEBUG_ENUM5: 0
+    - _DEBUG_ENUMM: 0
     - _DepthOffsetEnable: 1
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
@@ -137,6 +153,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
+    - _SOME_ENUM_KEYWORD: 0
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -177,6 +194,7 @@ Material:
     m_Colors:
     - Color_28f854b15bc5475e9d9c6a98ce3fb252: {r: 1, g: 1, b: 1, a: 0}
     - Color_62F24D98: {r: 0.11764706, g: 0.26673886, b: 0.55294114, a: 1}
+    - Color_726eec00404446518281e9b3eae6e5a1: {r: 0, g: 0, b: 0, a: 0}
     - Color_7657C1FD: {r: 0.8117648, g: 0.17254895, b: 0.6666667, a: 1}
     - Color_76F972A0: {r: 0.2264151, g: 0, b: 0.17542066, a: 1}
     - Color_B0CDD922: {r: 1, g: 1, b: 1, a: 0}

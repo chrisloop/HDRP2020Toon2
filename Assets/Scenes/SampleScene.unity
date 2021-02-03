@@ -6165,7 +6165,7 @@ MonoBehaviour:
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
     textureIndex: 0
-    textureOffset: {x: -1663.3665, y: -0, z: 0}
+    textureOffset: {x: -4260.767, y: -0, z: 0}
 --- !u!114 &594382748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6381,7 +6381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686273176}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6225358, y: -0.85, z: 11.36}
+  m_LocalPosition: {x: -0.6225358, y: -2.48, z: 11.36}
   m_LocalScale: {x: 3.4585323, y: 3.4585323, z: 3.4585323}
   m_Children: []
   m_Father: {fileID: 738478367}
@@ -7639,7 +7639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683874270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.35, y: -1.78, z: 9.03}
+  m_LocalPosition: {x: 6, y: -0.81, z: 9.03}
   m_LocalScale: {x: 3.4585323, y: 3.4585323, z: 3.4585323}
   m_Children: []
   m_Father: {fileID: 738478367}
