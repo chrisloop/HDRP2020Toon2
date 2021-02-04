@@ -42,11 +42,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_AFD13AF9:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: 48c4e87446873bb4ea03961eda3d377e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_eb5c433aec2843c8b9a0139944cd4a00:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalFromTexture_17699f79cfb640b898d5fcf2d80c0848_Texture_0:
+        m_Texture: {fileID: 2800000, guid: 7c812bfa48bb3924f80aa6cdc9366c3f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_8db3378ae0ef499ba93f42fa4723ac67_Texture_1:
@@ -217,7 +221,7 @@ Material:
     - Color_7657C1FD: {r: 0.8117648, g: 0.17254895, b: 0.6666667, a: 1}
     - Color_76F972A0: {r: 0.2264151, g: 0, b: 0.17542066, a: 1}
     - Color_B0CDD922: {r: 1, g: 1, b: 1, a: 0}
-    - Vector2_356930F8: {r: 10, g: 10, b: 0, a: 0}
+    - Vector2_356930F8: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

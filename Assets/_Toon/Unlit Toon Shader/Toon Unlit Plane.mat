@@ -39,7 +39,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_AFD13AF9:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: 48c4e87446873bb4ea03961eda3d377e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,10 +55,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_6ad20c275c9a4a5297ce4aad2e3421ef: 0
+    - Boolean_a56fe5e76b8242f7a931c59b9504e37c: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db_1: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db_2: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db_3: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db_4: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db_5: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db_6: 0
+    - Boolean_d48f76bc19704ffaaefa1c286acaa4db_7: 0
     - Vector1_0aed5d586a58434b8ee138e0d322f160: 1
     - Vector1_1bf2d9fae42a48dca17f233985539b0c: 50
     - Vector1_3617de9aeccd4e1eaa13d996a39ff510: 1
-    - Vector1_4B9BB44F: 0.412
+    - Vector1_4B9BB44F: 0.018
     - Vector1_54B89D7E: 0.273
     - Vector1_674778c5392c49e5961b62f61112b20f: 1000
     - Vector1_7ccc4402c6ee462b9f9ad25c8cfcca80: 1
@@ -85,6 +95,7 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _EDGE_SAMPLE_COUNT: 1
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _LightIntensity: 10000
@@ -128,7 +139,7 @@ Material:
     - Color_76F972A0: {r: 0.55294114, g: 0.117646985, b: 0.45490193, a: 0.6509804}
     - Color_9f204f4668e640aaaf65228c0a375219: {r: 0.55294114, g: 0.117646955, b: 0.45490193, a: 0.49411765}
     - Color_B0CDD922: {r: 1, g: 1, b: 1, a: 0}
-    - Vector2_356930F8: {r: 10, g: 10, b: 0, a: 0}
+    - Vector2_356930F8: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightColor: {r: 1, g: 1, b: 1, a: 0}

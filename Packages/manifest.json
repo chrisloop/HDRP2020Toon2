@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "com.needle.shadergraph-markdown": "0.5.0-exp",
     "com.unity.ide.vscode": "1.2.3",
+    "com.unity.recorder": "2.5.2",
     "com.unity.render-pipelines.high-definition": "10.2.2",
     "com.unity.test-framework": "1.1.19",
     "com.unity.modules.ai": "1.0.0",
@@ -33,8 +35,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.needle.shadergraph-markdown": "0.5.0-exp"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {

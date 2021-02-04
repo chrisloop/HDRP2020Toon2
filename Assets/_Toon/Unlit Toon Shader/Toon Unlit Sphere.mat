@@ -39,7 +39,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_AFD13AF9:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: 48c4e87446873bb4ea03961eda3d377e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -68,7 +68,7 @@ Material:
     - Vector1_0aed5d586a58434b8ee138e0d322f160: 0.76
     - Vector1_1bf2d9fae42a48dca17f233985539b0c: 50
     - Vector1_3617de9aeccd4e1eaa13d996a39ff510: 4
-    - Vector1_4B9BB44F: 0.02
+    - Vector1_4B9BB44F: 0.018
     - Vector1_54B89D7E: 1
     - Vector1_674778c5392c49e5961b62f61112b20f: 30
     - Vector1_7ccc4402c6ee462b9f9ad25c8cfcca80: 0.068
@@ -139,7 +139,7 @@ Material:
     - Color_76F972A0: {r: 0.55294114, g: 0.117646955, b: 0.45490193, a: 0.22745098}
     - Color_9f204f4668e640aaaf65228c0a375219: {r: 0.55294114, g: 0.117646925, b: 0.45490193, a: 0}
     - Color_B0CDD922: {r: 1, g: 1, b: 1, a: 0}
-    - Vector2_356930F8: {r: 10, g: 10, b: 0, a: 0}
+    - Vector2_356930F8: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightColor: {r: 1, g: 1, b: 1, a: 0}
