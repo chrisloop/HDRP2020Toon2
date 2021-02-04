@@ -38,10 +38,49 @@ void GetShadow_float(float2 uv, out float3 Shadow)
     #endif
 }
 
-void ShadowEdges_float(float2 uv, out float ShadowEdges)
+void ShadowEdges_float(float2 ScreenPosition, float EdgeRadius, float Multiplier, float ShadowBias, int Samples,
+    out float ShadowEdges)
 {
-    ShadowEdges = 1;
+    ShadowEdges = 0;
 
+    EdgeRadius = EdgeRadius * _ScreenParams.y / 1080; // screen size scaling
+
+    if (Multiplier <= 0)
+        return;
+
+    #ifndef SHADERGRAPH_PREVIEW
+
+        float Shadow = SAMPLE_TEXTURE2D_X(_ScreenSpaceShadowsTexture, s_linear_clamp_sampler, ScreenPosition * _RTHandleScale.xy);
+
+        // Neighbour pixel positions
+        static float2 samplingPositions[8] =
+        {
+            float2( 0,  1),
+            float2(-1,  0),
+            float2( 0, -1),
+            float2( 1,  0),
+            float2( 1,  1),
+            float2(-1,  1),
+            float2(-1, -1),
+            float2( 1, -1),
+        };
+
+        float shadowDifference = 0;
+
+        float shadowSample;
+        //float3 normalSample;
+
+        for (int i = 0; i < Samples; i++)
+        {
+            shadowSample = SAMPLE_TEXTURE2D_X(_ScreenSpaceShadowsTexture, s_linear_clamp_sampler, (ScreenPosition * _RTHandleScale.xy) + samplingPositions[i] * EdgeRadius * _ScreenSize.zw);
+            shadowDifference = shadowDifference + Shadow - shadowSample.r;
+        }
+
+        // shadow sensitivity
+        shadowDifference = shadowDifference * Multiplier;
+        shadowDifference = pow(shadowDifference, ShadowBias); 
+        ShadowEdges = shadowDifference;
+    #endif
 }
 
 void GetSun_float(out float3 LightDirection, out float3 Color)

@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon Lit Sphere Reflective
   m_Shader: {fileID: -6465566751694194690, guid: 542450995593b6d429df37551f02c49e, type: 3}
-  m_ShaderKeywords: _DEPTHOFFSET_ON _DISABLE_SSR_TRANSPARENT
+  m_ShaderKeywords: _DEPTHOFFSET_ON _DISABLE_SSR_TRANSPARENT _EDGE_SAMPLE_COUNT_EIGHT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -78,12 +78,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_0ccca37223854fb0b68cec36458fc1e0: 0
     - Boolean_1: 0
     - Boolean_2: 0
+    - Boolean_3: 0
+    - Boolean_393521088fad4f32b4b8f0ee64ca1221: 0
+    - Boolean_562416e4272945efae683f5552aa1fe4: 0
     - Boolean_69aa54819bb043cd9dc1dacf1946806f: 0
     - Boolean_8cb28678092f4ca8863fe9c8f6d938da: 0
     - Boolean_925a0dc74d81471f856737723c2ef199: 0
     - Boolean_ae83a1fa8b7145b580fcb0acde8334b4: 0
+    - Boolean_ca0abb4f55644183974927b1cdd3bd52: 0
     - Boolean_cec2dc7579c54ad1b2477ce5d9462703: 0
     - Boolean_df3d4d3425864e2c9755174324ea3c33: 0
     - Boolean_df3d4d3425864e2c9755174324ea3c33_1: 0
@@ -94,12 +99,16 @@ Material:
     - ENUM_E3ECF2C0332A482FA9C60CC273AE759D: 0
     - Vector1_02890e03be7743b0ade8759623bc4b7c: 0
     - Vector1_0eb6120f3aa249f88883181ffa13025f: 50
+    - Vector1_1: 5
     - Vector1_130ae5b3f0ce4cf9824929fae402a53e: 0.845
+    - Vector1_14bc2819848f466c9c870cec48c4dfe0: 0
+    - Vector1_1b014ccb1c014b5f88775bdf7614c912: 1
     - Vector1_1bf2d9fae42a48dca17f233985539b0c: 1000
     - Vector1_27d1779a62af4045a16ef019e6a493fe: 1
     - Vector1_2ebe5d8448eb43d19c5ab5b4f5b34ac8: 0.08
     - Vector1_32ce12e6b6b9493cbd29f7c0f8b0882d: 0.01
     - Vector1_3617de9aeccd4e1eaa13d996a39ff510: 3
+    - Vector1_3b81f0b93fca46339dbb48b5b15faeaa: 8
     - Vector1_4B9BB44F: 0
     - Vector1_582aaeb3311a4ffa9f7a7aeb362429ef: 1
     - Vector1_5c1e621cf7854859a6176815f7d1f525: 1
@@ -107,8 +116,10 @@ Material:
     - Vector1_674778c5392c49e5961b62f61112b20f: 20
     - Vector1_86592b51c1e84544bb85b72df6aacc92: 1
     - Vector1_877352a7be4146fa89e2fe06004a9a44: 1
+    - Vector1_87e6d678f2ac4263912c0ded8ce60e66: 5
     - Vector1_889987DF: 1.74
     - Vector1_88f7037ba09444df9fcf7aa21e14d136: 3
+    - Vector1_89c5f5eef34c484586ccdd91b9226df4: 0
     - Vector1_8AFDFB0C: 0.203
     - Vector1_945ADE25: 0.627
     - Vector1_965727f993ba485e98ec85116493261d: 0
@@ -139,11 +150,18 @@ Material:
     - _CullModeForward: 2
     - _DEBUG_ENUM: 0
     - _DEBUG_ENUM5: 0
+    - _DEBUG_ENUM6: 0
+    - _DEBUG_ENUM61: 0
     - _DEBUG_ENUMM: 0
     - _DepthOffsetEnable: 1
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _EDGE_SAMPLES_ENUM: 0
+    - _EDGE_SAMPLES_ENUM1: 0
+    - _EDGE_SAMPLES_ENUM2: 1
+    - _EDGE_SAMPLES_ENUM_2: 1
+    - _EDGE_SAMPLE_COUNT: 1
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _OpaqueCullMode: 2
@@ -154,6 +172,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _SOME_ENUM_KEYWORD: 0
+    - _ShadowBias: 1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
