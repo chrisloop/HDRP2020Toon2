@@ -56,6 +56,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_6ad20c275c9a4a5297ce4aad2e3421ef: 0
+    - Boolean_a56fe5e76b8242f7a931c59b9504e37c: 0
     - Boolean_d48f76bc19704ffaaefa1c286acaa4db: 0
     - Boolean_d48f76bc19704ffaaefa1c286acaa4db_1: 0
     - Boolean_d48f76bc19704ffaaefa1c286acaa4db_2: 0
@@ -94,6 +95,7 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _EDGE_SAMPLE_COUNT: 1
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _LightIntensity: 10000
