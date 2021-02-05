@@ -68,7 +68,7 @@ Material:
     - Vector1_0aed5d586a58434b8ee138e0d322f160: 0.76
     - Vector1_1bf2d9fae42a48dca17f233985539b0c: 50
     - Vector1_3617de9aeccd4e1eaa13d996a39ff510: 2
-    - Vector1_4B9BB44F: 0.018
+    - Vector1_4B9BB44F: 0.058
     - Vector1_54B89D7E: 1
     - Vector1_674778c5392c49e5961b62f61112b20f: 10000
     - Vector1_7ccc4402c6ee462b9f9ad25c8cfcca80: 0.068
@@ -79,7 +79,7 @@ Material:
     - Vector1_9FF40171: 0.1
     - Vector1_9fa923b6cf214786bac55b210d7614ce: 1
     - Vector1_BC8BD2CC: 0
-    - Vector1_F4A18076: 100
+    - Vector1_F4A18076: 5
     - Vector1_F4F70242: -0.5
     - Vector1_a963ea382a574385b2c453061887b90f: 1000
     - _AddPrecomputedVelocity: 0
