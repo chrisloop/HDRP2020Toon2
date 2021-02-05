@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon Lit Cube
   m_Shader: {fileID: -6465566751694194690, guid: 542450995593b6d429df37551f02c49e, type: 3}
-  m_ShaderKeywords: _DEBUG_ENUM5_OFF _DEBUG_ENUM_OFF _DEPTHOFFSET_ON _DISABLE_SSR_TRANSPARENT
-    _EDGE_SAMPLE_COUNT_EIGHT
+  m_ShaderKeywords: _DEBUG_ENUM5_OFF _DEBUG_ENUM61_OFF _DEBUG_ENUM_OFF _DEPTHOFFSET_ON
+    _DISABLE_SSR_TRANSPARENT _EDGE_SAMPLE_COUNT_EIGHT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -48,6 +48,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_eb5c433aec2843c8b9a0139944cd4a00:
         m_Texture: {fileID: 2800000, guid: 1c4cf44c63c40cf488984cef6ef58723, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_fdcba0e1bb2943a1a0ddcd85f5b78068:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalFromTexture_17699f79cfb640b898d5fcf2d80c0848_Texture_0:
@@ -100,6 +104,9 @@ Material:
     - Boolean_df3d4d3425864e2c9755174324ea3c33_2: 0
     - Boolean_f2b62d2ba60245d08c578c1bad82e9a6: 0
     - Boolean_f2b62d2ba60245d08c578c1bad82e9a6_1: 0
+    - Boolean_f2b62d2ba60245d08c578c1bad82e9a6_2: 0
+    - Boolean_f2b62d2ba60245d08c578c1bad82e9a6_3: 0
+    - Boolean_f2b62d2ba60245d08c578c1bad82e9a6_4: 0
     - ENUM_03FDE198DDC6415C822C72B658B21DC4: 0
     - ENUM_E3ECF2C0332A482FA9C60CC273AE759D: 0
     - Vector1_02890e03be7743b0ade8759623bc4b7c: 0
@@ -109,6 +116,7 @@ Material:
     - Vector1_14bc2819848f466c9c870cec48c4dfe0: 0
     - Vector1_1b014ccb1c014b5f88775bdf7614c912: 1
     - Vector1_1bf2d9fae42a48dca17f233985539b0c: 1000
+    - Vector1_1df36454833e40718f4c16992bfcf157: 1
     - Vector1_27d1779a62af4045a16ef019e6a493fe: 1
     - Vector1_2ebe5d8448eb43d19c5ab5b4f5b34ac8: 0.585
     - Vector1_32ce12e6b6b9493cbd29f7c0f8b0882d: 0.905
@@ -133,13 +141,15 @@ Material:
     - Vector1_9d3076dd1825477baf7a0db8cfdea24b: 0
     - Vector1_9fa923b6cf214786bac55b210d7614ce: 10
     - Vector1_BC8BD2CC: 0
-    - Vector1_F4A18076: 3.42
+    - Vector1_F4A18076: 5
     - Vector1_F4F70242: -0.5
     - Vector1_a0e252eb5cdc4bd7b89439de83098705: 1
     - Vector1_a963ea382a574385b2c453061887b90f: 10
+    - Vector1_ac53cc9c94bd423e9abe762e43caa442: 1
     - Vector1_acaf71c445894b739eda8abeb604a2c3: 0
     - Vector1_b102c176d56a4022a1bd362c0a195448: 0
     - Vector1_b404da31d8e24c1487e3ad5bbf137055: 10
+    - Vector1_b99d863ba3a548999a243092963540d7: 0
     - Vector1_babfac56a44f4d4f83e25e245cf3b558: 100000
     - Vector1_c968c3e8c18248279b4002e8bc04cb6c: 100000
     - Vector1_c983f3e8347749aeba2cda64cd493a6d: 0.319
@@ -220,6 +230,7 @@ Material:
     - Color_726eec00404446518281e9b3eae6e5a1: {r: 0, g: 0, b: 0, a: 0}
     - Color_7657C1FD: {r: 0.8117648, g: 0.17254895, b: 0.6666667, a: 1}
     - Color_76F972A0: {r: 0.2264151, g: 0, b: 0.17542066, a: 1}
+    - Color_8830030545ab4264a021d459392a5655: {r: 1, g: 1, b: 1, a: 0}
     - Color_B0CDD922: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_356930F8: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
